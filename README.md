@@ -3,7 +3,7 @@
 ## Usage
 
 ```shell
-KeyaviTask.exe  4 2 8 5 8 3 1 12 #list of itergers delimited by a space
+KeyaviTask.exe  4 2 8 5 8 3 1 12 #list of integers delimited by a space
 ```
 
 Using your strongest coding language, please send back a code method that returns the 3rd largest element in a list.
