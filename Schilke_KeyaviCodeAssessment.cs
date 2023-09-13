@@ -4,14 +4,14 @@ using System.Linq;
 
 namespace KeyaviTask
 {
-    class Program
+    class Schilke_KeyaviCodeAssessment
     {
         static void Main(string[] args)
         {
             var input = new List<int>();
             input.AddRange(args.Select(x => int.Parse(x)));
 
-            int thirdMax = Program.ThirdLargest(input);
+            int thirdMax = Schilke_KeyaviCodeAssessment.ThirdLargest(input);
             Console.WriteLine($"The third largest element of {string.Join(",", input)} is {thirdMax}");
         }
 
